@@ -1,4 +1,4 @@
-package aulas.secao02_conceitos_programacao.aula05_o_que_e_preciso_para_fazer_um_programa_computador;
+package aulas.secao_02.aula_05;
 
 public class App {
 

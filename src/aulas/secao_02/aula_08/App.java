@@ -1,4 +1,4 @@
-package aulas.secao02_conceitos_programacao.aula08_compilacao_interpretacao;
+package aulas.secao_02.aula_08;
 
 public class App {
 

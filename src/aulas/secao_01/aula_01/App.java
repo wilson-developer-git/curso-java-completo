@@ -1,4 +1,4 @@
-package aulas.secao01_introducao.aula01_visao_geral;
+package aulas.secao_01.aula_01;
 
 public class App {
 

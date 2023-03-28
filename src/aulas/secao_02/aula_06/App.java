@@ -1,4 +1,4 @@
-package aulas.secao02_conceitos_programacao.aula06_linguagem_de_programacao_lexica_sintatica;
+package aulas.secao_02.aula_06;
 
 public class App {
 

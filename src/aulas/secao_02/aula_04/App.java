@@ -1,4 +1,4 @@
-package aulas.secao02_conceitos_programacao.aula04_algoritmo_automacao_programa_computador;
+package aulas.secao_02.aula_04;
 
 public class App {
 

@@ -1,4 +1,4 @@
-package aulas.secao02_conceitos_programacao.aula07_ide_ambiente_integrado_desenvolvimento;
+package aulas.secao_02.aula_07;
 
 public class App {
 

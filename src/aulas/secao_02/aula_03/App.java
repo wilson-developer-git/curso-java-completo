@@ -1,4 +1,4 @@
-package aulas.secao02_conceitos_programacao.aula03_material_de_apoio;
+package aulas.secao_02.aula_03;
 
 public class App {
 

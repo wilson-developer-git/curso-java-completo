@@ -1,4 +1,4 @@
-package aulas.secao02_conceitos_programacao.aula02_visao_geral_capitulo;
+package aulas.secao_02.aula_02;
 
 public class App {
 
