@@ -1,4 +1,4 @@
-package aulas.secao_03.aula_14;
+package aulas.secao_03.aula_15;
 
 public class App {
 
@@ -6,7 +6,7 @@ public class App {
 	 * 
 	 *  Seção 03 - Introdução a linguagem Java 
 	 *  
-	 *  	Aula 14 - Estrutura de uma aplicação java
+	 *  	Aula 15 - Instalando o Java JDK
 	 *  
 	 * */
 	
