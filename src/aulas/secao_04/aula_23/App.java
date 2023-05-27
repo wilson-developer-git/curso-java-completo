@@ -1,4 +1,4 @@
-package aulas.secao_03.aula_23;
+package aulas.secao_04.aula_23;
 
 import java.util.Locale;
 
