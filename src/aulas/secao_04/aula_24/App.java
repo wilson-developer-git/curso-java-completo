@@ -14,7 +14,7 @@ public class App {
 		int a, b;
 		a = 5;
 		b = 2;
-		double result = (double) 5 / 2;
+		double result = (double) a / b;
 		System.out.println(result);
 		
 	}
