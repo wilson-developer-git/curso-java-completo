@@ -10,6 +10,8 @@ public class App {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Conversao de temperatura C para F");
+		
 		char resp;
 		do {
 			System.out.print("Digite a temperatura em Celcius: ");
