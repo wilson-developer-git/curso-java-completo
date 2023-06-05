@@ -1,25 +1,24 @@
-package aulas.secao_08.aula_66;
+package aulas.secao_09.aula_77;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import aulas.secao_08.aula_66.entities.Product;
+import aulas.secao_09.aula_77.entities.*;
 
 public class App {
 
 	public static void main(String[] args) {
-
+		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		Product product = new Product();
 		System.out.println("Enter product data: ");
 		System.out.print("Name: ");
-		product.name = sc.nextLine();
+		String name = sc.nextLine();
 		System.out.print("Price: ");
-		product.price = sc.nextDouble();
-		System.out.print("Quantity: ");
-		product.quantity = sc.nextInt();
+		double price = sc.nextDouble();
+		
+		Product product = new Product(name, price);
 		
 		System.out.println();
 		System.out.println("Product data: "+ product);
