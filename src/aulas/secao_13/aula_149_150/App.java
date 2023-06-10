@@ -2,7 +2,6 @@ package aulas.secao_13.aula_149_150;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
