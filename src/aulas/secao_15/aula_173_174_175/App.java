@@ -1,11 +1,11 @@
-package aulas.secao_15.aula_173;
+package aulas.secao_15.aula_173_174_175;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-import aulas.secao_15.aula_173.model.entities.Reservation;
+import aulas.secao_15.aula_173_174_175.model.entities.Reservation;
 
 public class App {
 
@@ -36,15 +36,11 @@ public class App {
 			System.out.print("Check-out date (dd/MM/yyyy): ");
 			checkOut = sdf.parse(sc.next());
 			
-			Date now = new Date();
-			if(checkIn.before(now) || checkOut.before(now)) {
-				System.out.println("Error in reservation: Reservation dates for update must be future date");
-			}
-			else if(!checkOut.after(checkIn)) {
-				System.out.println("Error in reservation: Check-out date must be after Check-in date");
-			}
-			else {
-				reservation.updateDates(checkIn, checkOut);
+			
+			String error = reservation.updateDates(checkIn, checkOut);
+			if(error != null) {
+				System.out.println("Error in reservation: "+ error);
+			}else {
 				System.out.println("Reservation: "+ reservation);	
 			}
 			
