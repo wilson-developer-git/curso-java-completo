@@ -1,6 +1,6 @@
-package aulas.secao_18.aula_225_226.model.services;
+package aulas.secao_18.aula_225_226_227.model.services;
 
-public class BrazilTaxService {
+public class BrazilTaxService implements TaxService{
 
 	public double tax(double amount) {
 		if(amount <= 100) {

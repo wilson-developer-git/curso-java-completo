@@ -1,18 +1,18 @@
-package aulas.secao_18.aula_225_226.model.services;
+package aulas.secao_18.aula_225_226_227.model.services;
 
 import java.time.Duration;
 
-import aulas.secao_18.aula_225_226.model.entities.CarRental;
-import aulas.secao_18.aula_225_226.model.entities.Invoice;
+import aulas.secao_18.aula_225_226_227.model.entities.CarRental;
+import aulas.secao_18.aula_225_226_227.model.entities.Invoice;
 
 public class RentalService {
 
 	private Double pricePerHour;
 	private Double pricePerDay;
 
-	private BrazilTaxService taxService;
+	private TaxService taxService;
 
-	public RentalService(Double pricePerHour, Double pricePerDay, BrazilTaxService taxService) {
+	public RentalService(Double pricePerHour, Double pricePerDay, TaxService taxService) {
 		this.pricePerHour = pricePerHour;
 		this.pricePerDay = pricePerDay;
 		this.taxService = taxService;
