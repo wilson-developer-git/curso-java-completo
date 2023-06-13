@@ -1,4 +1,4 @@
-package aulas.secao_18.aula_225.model.entities;
+package aulas.secao_18.aula_225_226.model.entities;
 
 import java.time.LocalDateTime;
 

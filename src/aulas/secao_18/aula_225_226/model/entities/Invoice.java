@@ -1,4 +1,4 @@
-package aulas.secao_18.aula_225.model.entities;
+package aulas.secao_18.aula_225_226.model.entities;
 
 public class Invoice {
 
@@ -30,7 +30,7 @@ public class Invoice {
 	}
 	
 	public Double getTotalPayment() {
-		return getBasicPayment() - getTax();
+		return getBasicPayment() + getTax();
 	}
 	
 }
