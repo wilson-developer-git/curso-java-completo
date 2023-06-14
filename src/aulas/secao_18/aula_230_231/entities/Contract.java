@@ -1,4 +1,4 @@
-package aulas.secao_18.aula_230.entities;
+package aulas.secao_18.aula_230_231.entities;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
