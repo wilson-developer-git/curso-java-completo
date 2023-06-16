@@ -13,6 +13,8 @@ public class App2 {
 		List<? extends Number> list = intList;
 		Number x = list.get(0);
 		//list.add(20); // erro de compilacao no add
+		System.out.println(x);
+		
 		
 		List<Object> myObjs = new ArrayList<Object>();
 		myObjs.add("Maria");
