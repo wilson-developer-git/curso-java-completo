@@ -1,7 +1,5 @@
 package aulas.secao_18.aula_235.entities;
 
-import java.security.InvalidParameterException;
-
 public class UsaInterestService implements InterestService{
 
 	private Double interestRate;
