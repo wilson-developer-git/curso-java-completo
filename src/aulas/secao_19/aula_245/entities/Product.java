@@ -50,4 +50,8 @@ public class Product implements Comparable<Product>{
 		return name.toUpperCase().compareTo(other.getName().toUpperCase());
 	}
 	
+	@Override
+	public String toString() {
+		return name +", "+ price;
+	}
 }
