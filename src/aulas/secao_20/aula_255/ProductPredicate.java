@@ -1,4 +1,4 @@
-package aulas.secao_20.aula_254;
+package aulas.secao_20.aula_255;
 
 import java.util.function.Predicate;
 

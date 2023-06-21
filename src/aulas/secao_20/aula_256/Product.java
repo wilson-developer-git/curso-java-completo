@@ -1,4 +1,4 @@
-package aulas.secao_20.aula_254;
+package aulas.secao_20.aula_256;
 
 public class Product{
 
@@ -29,12 +29,12 @@ public class Product{
 		this.price = price;
 	}
 
-	public static boolean staticProductPredicate(Product p) {
-		return p.getPrice() >= 100.0;
+	public static void staticPriceUpdate(Product p) {
+		p.setPrice(p.getPrice() * 1.1);
 	}
 	
-	public boolean nonStaticProductPredicate() {
-		return this.price >= 100.0;
+	public void nonStaticPriceUpdate() {
+		price = price * 1.1;
 	}
 	
 	@Override
