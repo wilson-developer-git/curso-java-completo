@@ -1,4 +1,4 @@
-package aulas.secao_22.aula_292_293;
+package aulas.secao_22.aula_292_293_294;
 
 import java.io.Serializable;
 
